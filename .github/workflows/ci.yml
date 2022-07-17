@@ -31,4 +31,4 @@ jobs:
         run: npm run test
       - name: Start the app
         run: npm start &
-          npm wait-on -- timeout 60000
+          npm wait-on --timeout 60000
