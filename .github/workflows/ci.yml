@@ -3,8 +3,8 @@
 
 name: Node.js CI2
 env: SCREENER_API_KEY:${{secrects.SCREENER_API_KEY}}
-  SCREENER_USERNAME:${{secrects.SCREENER_USERNAME}}
-  SCREENER_ACCESS_KEY:${{secrects.ACCESS_API_KEY}}
+  SAUCE_USERNAME:${{secrects.SCREENER_USERNAME}}
+  SAUCE_ACCESS_KEY:${{secrects.ACCESS_API_KEY}}
 on:
   push:
     branches: ["main"]
